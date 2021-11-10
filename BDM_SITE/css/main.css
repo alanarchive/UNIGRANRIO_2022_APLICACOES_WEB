@@ -1,0 +1,151 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul {
+    padding: 0px!important;
+}
+.menu-principal {
+    width: 100%;
+    background-color:#ffffff;
+}
+main, .content {
+    width: 1400px;
+    float: left;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 3px;
+    width: 40%;
+}    
+.redes-sociais ul li {
+    margin-left: 10px;
+    display: inline-block;
+    float: right;
+    list-style: none;
+}
+.redes-sociais {
+    width: 40%;
+    float: right;
+    padding: 16px;
+
+}
+.header-2 {
+    width: 1400px;
+    margin: 0 auto;
+    border-top: 2px solid;
+    border-color: blueviolet;
+    padding: 12px;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 55px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 2px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+ }
+.menu ul li a {
+    color: darkgrey;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 10px;
+}
+.menu {
+    width: 60%;
+    float: left;
+}
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+    padding: 12px;
+}
+.busca input {
+    background-image: url('../img/search_01.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    border: 2px solid darkgrey;
+    height: 32px;
+    padding: 12px;
+    width: 190px;
+}
+input::placeholder {
+    color:darkgrey;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url('../img/slider-icon-left1.png');
+    position: absolute;
+    z-index: 9;
+    top:35%;
+    left: 3%;
+
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url('../img/slider-icon-right1.png');
+    position: absolute;
+    z-index: 9;
+    top:35%;
+    left: 93%;
+
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid lightgray;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left:44%;
+    top: 76%;
+}
+li.slick-active button{
+    background-color: magenta;
+}
+
+.slick-dots li {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque p{
+    color: #9a9a9a;
+}
