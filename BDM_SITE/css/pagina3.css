@@ -1,3 +1,12 @@
+.tela3 {
+    background-color: rgb(201, 238, 201);
+}
+
+.grade {
+    margin-left: 2%;
+    padding: 1%;
+     
+}
 body {
     width: 100%;
     height: 100%;
@@ -6,9 +15,10 @@ body {
 ul {
     padding: 0px!important;
 }
-.menu-principal {
+.menu-principal2 {
     width: 100%;
     background-color:#ffffff;
+   
 }
 main, .content {
     width: 1400px;
@@ -20,24 +30,30 @@ main, .content {
     padding: 3px;
     width: 40%;
 }    
-.redes-sociais ul li {
+.redes-sociais2 ul li {
     margin-left: 10px;
     display: inline-block;
     float: right;
     list-style: none;
 }
-.redes-sociais {
+.redes-sociais2 {
     width: 40%;
     float: right;
     padding: 16px;
 
 }
-.header-2 {
+.header-4 {
     width: 1400px;
     margin: 0 auto;
     border-top: 2px solid;
     border-color: blueviolet;
     padding: 12px;
+}
+
+.col-101 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
 .menu ul li {
     display: inline-block;
@@ -53,7 +69,7 @@ main, .content {
     color: #00bac6;
  }
 .menu ul li a {
-    color: darkgrey;
+    color: darkslategrey;
     text-decoration: none;
     font-size: 19px;
     margin-left: 10px;
@@ -62,7 +78,7 @@ main, .content {
     width: 60%;
     float: left;
 }
-.busca {
+.busca2 {
     text-align: center;
     width: 30%;
     float: right;
@@ -80,76 +96,8 @@ main, .content {
 input::placeholder {
     color:darkgrey;
 }
-.col-100 {
+.col-101 {
     width: 100%;
     float: left;
     position: relative;
-}
-
-button.slick-prev {
-    font-size: 0px;
-    border: none;
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    background-image: url('../img/slider-icon-left1.png');
-    position: absolute;
-    z-index: 9;
-    top:35%;
-    left: 3%;
-
-}
-
-button.slick-next {
-    font-size: 0px;
-    border: none;
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    background-image: url('../img/slider-icon-right1.png');
-    position: absolute;
-    z-index: 9;
-    top:35%;
-    left: 93%;
-
-}
-
-.slick-initialized {
-    overflow: hidden;
-}
-
-.slick-dots li button {
-    font-size: 0px;
-    border: 5px solid lightgray;
-    width: 20px;
-    height: 20px;
-    background: transparent;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.slick-dots {
-    margin: 0 auto;
-    width: 50%;
-    position: absolute;
-    left:44%;
-    top: 76%;
-}
-li.slick-active button{
-    background-color: magenta;
-}
-
-.slick-dots li {
-    padding-left: 15px;
-    display: inline-block;
-}
-
-.texto-destaque {
-    text-align: center;
-}
-.texto-destaque h1{
-    color: #30dd9bda;
-    margin-top: 1em;
-}
-.texto-destaque p{
-    color: #fdb869;
 }
